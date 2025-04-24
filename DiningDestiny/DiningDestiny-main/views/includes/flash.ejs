@@ -1,0 +1,45 @@
+<% if (success && success.length) { %>
+    <div id="successMessage" class="alert alert-success col-6 offset-3" role="alert">
+        <%= success %>
+    </div>
+    <script>
+        // Remove success message after 1 second
+        setTimeout(function() {
+            var successMessage = document.getElementById('successMessage');
+            if (successMessage) {
+                successMessage.remove();
+            }
+        }, 1000); // 1000 milliseconds = 1 second
+    </script>
+  <% } %>
+  
+  <% if (error && error.length) { %>
+    <div id="errorMessage" class="alert alert-danger col-6 offset-3" role="alert">
+        <%= error %>
+    </div>
+    <script>
+        // Remove error message after 2 seconds
+        setTimeout(function() {
+            var errorMessage = document.getElementById('errorMessage');
+            if (errorMessage) {
+                errorMessage.remove();
+            }
+        }, 2000); // 2000 milliseconds = 2 seconds
+    </script>
+  <% } %>
+  
+  <% if (error2 && error2.length) { %>
+    <div id="errorMessage2" class="alert alert-danger col-6 offset-3" role="alert">
+        <%= error2 %>
+    </div>
+    <script>
+        // Remove error2 message after 4 seconds
+        setTimeout(function() {
+            var errorMessage2 = document.getElementById('errorMessage2');
+            if (errorMessage2) {
+                errorMessage2.remove();
+            }
+        }, 4000); // 4000 milliseconds = 4 seconds
+    </script>
+  <% } %>
+  
