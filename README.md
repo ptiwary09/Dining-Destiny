@@ -3,9 +3,6 @@
 "Developed a full-stack dine-in restaurant website featuring CRUD operations, user authentication, and data validation. The platform integrates Mapbox for precise location services and Cloudinary for seamless image management. This website is designed to assist users in discovering the best restaurants in unfamiliar cities, ensuring they can enjoy a great meal wherever they are."
 
 
-## Authors
-
--@akshitakumar
 
 
 ## Technologies Used
